@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollDown from '../components/ScrollDown';
 import styles from './greeting.module.scss';
 
 export default function Greeting() {
@@ -16,6 +17,7 @@ export default function Greeting() {
         <p>음악으로 기분전환 해봐요</p>
         <p>오늘 내 기분에 어울리는 음악은?</p>
       </div>
+      <ScrollDown />
     </section>
   )
 }

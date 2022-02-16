@@ -5,7 +5,7 @@
   height: 100vh;
   position: relative;
   figure{
-    width: 60%;
+    width: 120vh;
     height: 80vh;
     margin: 15vh auto;
     overflow: hidden;
@@ -17,7 +17,7 @@
     }
     .visual2{
       animation: visualAni1 3s infinite linear;
-      mix-blend-mode: hue;
+      mix-blend-mode: saturation;
     }
   }
   .textBox{
@@ -27,7 +27,7 @@
     margin: auto;
     position: absolute;
     left: 0; right: 0;
-    top: 35vh;
+    top: 40vh;
     p{
       padding: 0.5em 0;
       text-align: center;

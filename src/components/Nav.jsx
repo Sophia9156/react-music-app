@@ -9,7 +9,7 @@ export default function Nav() {
   return(
     <nav onClick={clickMenu}>
       <div className={`navigation ${!openMenu ? "hide" : null}`}>
-        <Link to="/">TODAY's</Link>
+        <Link to="/">HOME</Link>
         <Link to="/trending">TRENDING</Link>
         <Link to="/mood">ON MOOD</Link>
       </div>

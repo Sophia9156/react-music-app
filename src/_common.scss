@@ -10,3 +10,20 @@ a{text-decoration: none;}
 $logo: 'Kaushan Script', cursive;
 $serif: 'Noto Serif Display', serif;
 $nanum: 'Nanum Gothic', sans-serif;
+
+
+///////// mixin
+
+@mixin title {
+  font-size: 4em;
+  font-family: $serif;
+  color: white;
+  font-style: italic;
+}
+
+@mixin description {
+  font-family: $nanum;
+  color: white;
+  text-align: center;
+  text-shadow: 3px 3px 5px rgba(155,155,155,0.5);
+}

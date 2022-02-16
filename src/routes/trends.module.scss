@@ -1,0 +1,44 @@
+@import '../_common.scss';
+
+.container{
+  width: 100%;
+  padding-top: 20vh;
+  h2{
+    margin-bottom: 2em;
+    @include title;
+    text-align: center;
+  }
+  ul{
+    width: 60%;
+    margin: 0 auto 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    a{
+      width: 40%;
+      li{
+        width: 100%;
+        figure{
+          width: 100%;
+          margin: 0;
+          img{
+            width: 100%;
+          }
+        }
+        p{
+          width: 80%;
+          @include description;
+        }
+        p:nth-of-type(1){
+          font-size: 1.2em;
+          margin: 2em auto 1em;
+        }
+        p:nth-of-type(2){
+          font-size: 1em;
+          margin: 0 auto 3em;
+        }
+      }
+    }
+  }
+}

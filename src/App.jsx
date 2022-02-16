@@ -11,6 +11,11 @@ const Player = lazy(() => import('./routes/Player'));
 
 function App({youtube}) {
   const [todayPlaylist, setTodayPlaylist] = useState([]);
+  const [selectedPlaylist, setSelectedPlaylist] = useState(null);
+
+  const selectPlaylist = (playlist) => {
+    setSelectedPlaylist(playlist);
+  }
 
   useEffect(() => {
     youtube
@@ -25,14 +30,19 @@ function App({youtube}) {
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route exact path="/" element={
-            <Home todayPlaylist={todayPlaylist} />
+            <Home 
+            todayPlaylist={todayPlaylist} 
+            onPlaylistClick={selectPlaylist} 
+            />
           } />
-          <Route path="/trending" element={<Trends />} />
+            <Route path="/trending" element={<Trends 
+            todayPlaylist={todayPlaylist} 
+            onPlaylistClick={selectPlaylist} 
+          />
+          } />
           <Route path="/mood" element={<Mood />} />
           <Route path="/play" element={
-            todayPlaylist.map((todayPlaylist, key) => (
-              <Player key={key} todayPlaylist={todayPlaylist} />
-            ))
+            <Player playlist={selectedPlaylist} />
           } />
         </Routes>
       </Suspense>

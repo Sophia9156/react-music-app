@@ -2,15 +2,15 @@ import React from 'react';
 import styles from './today.module.scss';
 import Item from './Item';
 
-export default function Today({todayPlaylist, onPlaylistClick}) {
+export default function Today({playlist, onPlaylistClick}) {
   return(
     <section className={styles.container}>
       <h2>Today's Playlist</h2>
       <ul>
-        {todayPlaylist.map((todayPlaylist, key) => (
+        {playlist.map((playlist, key) => (
           <Item 
           key={key} 
-          todayPlaylist={todayPlaylist} 
+          playlist={playlist} 
           onPlaylistClick={onPlaylistClick} 
           />
         )).slice(0,1)}

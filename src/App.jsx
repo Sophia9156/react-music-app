@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import React, { Suspense, lazy, useEffect, useState } from 'react';
+import React, { Suspense, lazy, useEffect, useState, useCallback } from 'react';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -10,17 +10,27 @@ const Mood = lazy(() => import('./routes/Mood'));
 const Player = lazy(() => import('./routes/Player'));
 
 function App({youtube}) {
-  const [todayPlaylist, setTodayPlaylist] = useState([]);
+  const [playlist, setPlaylist] = useState([]);
+  const [moodPlaylist, setMoodPlaylist] = useState([]);
   const [selectedPlaylist, setSelectedPlaylist] = useState(null);
 
   const selectPlaylist = (playlist) => {
     setSelectedPlaylist(playlist);
   }
 
+  const search = useCallback(query => {
+    setSelectedPlaylist(null);
+    youtube
+    .searchMood(query)
+    .then(playlist => {
+      setMoodPlaylist(playlist);
+    });
+  },[youtube]);
+
   useEffect(() => {
     youtube
     .todayMusic()
-    .then(playlist => setTodayPlaylist(playlist));
+    .then(playlist => setPlaylist(playlist));
   },[youtube]);
   
   return (
@@ -31,16 +41,23 @@ function App({youtube}) {
         <Routes>
           <Route exact path="/" element={
             <Home 
-            todayPlaylist={todayPlaylist} 
+            playlist={playlist} 
             onPlaylistClick={selectPlaylist} 
             />
           } />
-            <Route path="/trending" element={<Trends 
-            todayPlaylist={todayPlaylist} 
+            <Route path="/trending" element={
+            <Trends 
+            playlist={playlist} 
             onPlaylistClick={selectPlaylist} 
           />
           } />
-          <Route path="/mood" element={<Mood />} />
+          <Route path="/mood" element={
+          <Mood 
+          onSelect={search}
+          playlist={moodPlaylist}
+          onPlaylistClick={selectPlaylist}
+          />
+          } />
           <Route path="/play" element={
             <Player playlist={selectedPlaylist} />
           } />

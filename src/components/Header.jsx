@@ -8,11 +8,7 @@ export default function Header() {
     <header>
       <Link to="/">
         <h1>
-          <img src='./images/logo.png' alt="MoodPly" />
-          <b>
-            <span className='logo2'>Ply</span>
-            <span className='logo1'>Mood</span>
-          </b>
+          <img src='./images/logo-txt.png' alt="MoodPly" />
         </h1>
       </Link>
       <Nav />

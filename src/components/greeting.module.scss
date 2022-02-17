@@ -5,9 +5,9 @@
   height: 100vh;
   position: relative;
   figure{
-    width: 120vh;
-    height: 80vh;
-    margin: 15vh auto;
+    width: 60vw;
+    height: 38vw;
+    margin: 17vh auto;
     overflow: hidden;
     position: relative;
     img{
@@ -27,7 +27,7 @@
     margin: auto;
     position: absolute;
     left: 0; right: 0;
-    top: 40vh;
+    top: 18vw;
     p{
       padding: 0.5em 0;
       text-align: center;
@@ -73,4 +73,67 @@
   90%{transform: translateY(-2.5em);}
   99%{transform: translateY(-2.5em);}
   100%{transform: translateY(0);}
+}
+
+
+
+/* 테블릿 세로 (해상도 768px ~ 1023px)*/
+@media all and (min-width:768px) and (max-width:1023px) {
+  .visual{
+    height: 80vh;
+    figure{
+      width: 100vw;
+      height: 70vw;
+      margin: 20vh auto 5vh;
+      img{
+        width: 100%;
+      }
+    }
+    .textBox{
+      top: 30vw;
+    }
+  }
+} 
+
+/* 모바일 가로, 테블릿 세로 (해상도 480px ~ 767px)*/ 
+@media all and (min-width:480px) and (max-width:767px) {
+  .visual{
+    height: 80vh;
+    figure{
+      width: 100vw;
+      height: 70vw;
+      margin: 20vh auto 5vh;
+      img{
+        width: 100%;
+      }
+    }
+    .textBox{
+      top: 32vw;
+      p{
+        font-size: 1.5em;
+      }
+    }
+  }
+} 
+
+/* 모바일 가로, 테블릿 세로 (해상도 ~ 479px)*/ 
+@media all and (max-width:479px) {
+  .visual{
+    height: 70vh;
+    figure{
+      width: 100vw;
+      height: 90vw;
+      margin: 20vh auto 5vh;
+      img{
+        width: 120%;
+      }
+    }
+    .textBox{
+      top: 40vw;
+      p{
+        padding: 0.6em 0;
+        font-size: 1.3em;
+      }
+    }
+  }
 }

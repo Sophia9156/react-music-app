@@ -67,3 +67,84 @@
     }
   }
 }
+
+
+
+/* 테블릿 세로 (해상도 768px ~ 1023px)*/
+@media all and (min-width:768px) and (max-width:1023px) {
+  .container{
+    .moodType{
+      width: 80%;
+      button{
+        font-size: 1.3em;
+      }
+    }
+    .playlists{
+      width: 80%;
+      a{
+        width: 45%;
+        li{
+          p{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+} 
+
+/* 모바일 가로, 테블릿 세로 (해상도 480px ~ 767px)*/ 
+@media all and (min-width:480px) and (max-width:767px) {
+  .container{
+    h2{
+      margin-top: 1em;
+      @include titleTablet;
+    }
+    .moodType{
+      width: 80%;
+      button{
+        font-size: 1.2em;
+      }
+    }
+    .playlists{
+      width: 80%;
+      a{
+        width: 100%;
+        li{
+          p{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+} 
+
+/* 모바일 가로, 테블릿 세로 (해상도 ~ 479px)*/ 
+@media all and (max-width:479px) {
+  .container{
+    h2{
+      margin-top: 0.5em;
+      @include titleTablet;
+    }
+    .moodType{
+      width: 80%;
+      button{
+        margin: 0 10px;
+        padding: 15px 5px;
+        font-size: 1.2em;
+      }
+    }
+    .playlists{
+      width: 90%;
+      a{
+        width: 100%;
+        li{
+          p{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

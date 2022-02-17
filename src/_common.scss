@@ -20,6 +20,12 @@ $nanum: 'Nanum Gothic', sans-serif;
   color: white;
   font-style: italic;
 }
+@mixin titleTablet {
+  font-size: 3em;
+  font-family: $serif;
+  color: white;
+  font-style: italic;
+}
 
 @mixin description {
   font-family: $nanum;

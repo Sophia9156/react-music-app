@@ -11,11 +11,11 @@ export default function Greeting() {
       </figure>
       <div className={styles.textBox}>
         <p>오늘 기분 어때요?</p>
-        <p>잘하고 있어요, 이미</p>
+        <p>뮤직 플레이리스트로 기분전환 해봐요</p>
+        <p>오늘 내 기분에 어울리는 플레이리스트는?</p>
+        <p>좋아하는 플레이리스트를 찾아보세요</p>
         <p>잠시 쉬었다 가요</p>
-        <p>행복은 하늘을 올려다 보는 것</p>
-        <p>음악으로 기분전환 해봐요</p>
-        <p>오늘 내 기분에 어울리는 음악은?</p>
+        <p>음악은 최고의 인테리어</p>
       </div>
       <ScrollDown />
     </section>

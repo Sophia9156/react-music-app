@@ -45,18 +45,18 @@ function App({youtube}) {
             onPlaylistClick={selectPlaylist} 
             />
           } />
-            <Route path="/trending" element={
+          <Route path="/trending" element={
             <Trends 
             playlist={playlist} 
             onPlaylistClick={selectPlaylist} 
-          />
+            />
           } />
           <Route path="/mood" element={
-          <Mood 
-          onSelect={search}
-          playlist={moodPlaylist}
-          onPlaylistClick={selectPlaylist}
-          />
+            <Mood 
+            onSelect={search}
+            playlist={moodPlaylist}
+            onPlaylistClick={selectPlaylist}
+            />
           } />
           <Route path="/play" element={
             <Player playlist={selectedPlaylist} />

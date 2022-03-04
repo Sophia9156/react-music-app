@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-music-app/static/css/main.01f8c6af.css",
-    "main.js": "/react-music-app/static/js/main.3e32d526.js",
+    "main.js": "/react-music-app/static/js/main.785e2a22.js",
     "static/css/949.757f0168.chunk.css": "/react-music-app/static/css/949.757f0168.chunk.css",
     "static/js/949.d7e5af04.chunk.js": "/react-music-app/static/js/949.d7e5af04.chunk.js",
     "static/css/616.4c92795e.chunk.css": "/react-music-app/static/css/616.4c92795e.chunk.css",
@@ -9,11 +9,11 @@
     "static/css/678.687d71cc.chunk.css": "/react-music-app/static/css/678.687d71cc.chunk.css",
     "static/js/678.c11e6b20.chunk.js": "/react-music-app/static/js/678.c11e6b20.chunk.js",
     "static/css/263.9c7f9f97.chunk.css": "/react-music-app/static/css/263.9c7f9f97.chunk.css",
-    "static/js/263.8f3ba6fb.chunk.js": "/react-music-app/static/js/263.8f3ba6fb.chunk.js",
+    "static/js/263.fa277d9c.chunk.js": "/react-music-app/static/js/263.fa277d9c.chunk.js",
     "static/media/bg.jpg": "/react-music-app/static/media/bg.8c8b9913165508cb16da.jpg",
     "index.html": "/react-music-app/index.html",
     "main.01f8c6af.css.map": "/react-music-app/static/css/main.01f8c6af.css.map",
-    "main.3e32d526.js.map": "/react-music-app/static/js/main.3e32d526.js.map",
+    "main.785e2a22.js.map": "/react-music-app/static/js/main.785e2a22.js.map",
     "949.757f0168.chunk.css.map": "/react-music-app/static/css/949.757f0168.chunk.css.map",
     "949.d7e5af04.chunk.js.map": "/react-music-app/static/js/949.d7e5af04.chunk.js.map",
     "616.4c92795e.chunk.css.map": "/react-music-app/static/css/616.4c92795e.chunk.css.map",
@@ -21,10 +21,10 @@
     "678.687d71cc.chunk.css.map": "/react-music-app/static/css/678.687d71cc.chunk.css.map",
     "678.c11e6b20.chunk.js.map": "/react-music-app/static/js/678.c11e6b20.chunk.js.map",
     "263.9c7f9f97.chunk.css.map": "/react-music-app/static/css/263.9c7f9f97.chunk.css.map",
-    "263.8f3ba6fb.chunk.js.map": "/react-music-app/static/js/263.8f3ba6fb.chunk.js.map"
+    "263.fa277d9c.chunk.js.map": "/react-music-app/static/js/263.fa277d9c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.01f8c6af.css",
-    "static/js/main.3e32d526.js"
+    "static/js/main.785e2a22.js"
   ]
 }

@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/react-music-app/static/css/main.8f781f29.css",
-    "main.js": "/react-music-app/static/js/main.d00968ab.js",
-    "static/css/949.47de4ef9.chunk.css": "/react-music-app/static/css/949.47de4ef9.chunk.css",
-    "static/js/949.a63c6999.chunk.js": "/react-music-app/static/js/949.a63c6999.chunk.js",
-    "static/css/616.c92c80b2.chunk.css": "/react-music-app/static/css/616.c92c80b2.chunk.css",
-    "static/js/616.d697f0a2.chunk.js": "/react-music-app/static/js/616.d697f0a2.chunk.js",
-    "static/css/678.04c23d54.chunk.css": "/react-music-app/static/css/678.04c23d54.chunk.css",
-    "static/js/678.f0078366.chunk.js": "/react-music-app/static/js/678.f0078366.chunk.js",
-    "static/css/263.6e8ef06c.chunk.css": "/react-music-app/static/css/263.6e8ef06c.chunk.css",
-    "static/js/263.5cfa07c1.chunk.js": "/react-music-app/static/js/263.5cfa07c1.chunk.js",
+    "main.css": "/react-music-app/static/css/main.01f8c6af.css",
+    "main.js": "/react-music-app/static/js/main.3e32d526.js",
+    "static/css/949.757f0168.chunk.css": "/react-music-app/static/css/949.757f0168.chunk.css",
+    "static/js/949.d7e5af04.chunk.js": "/react-music-app/static/js/949.d7e5af04.chunk.js",
+    "static/css/616.4c92795e.chunk.css": "/react-music-app/static/css/616.4c92795e.chunk.css",
+    "static/js/616.0798a6bc.chunk.js": "/react-music-app/static/js/616.0798a6bc.chunk.js",
+    "static/css/678.687d71cc.chunk.css": "/react-music-app/static/css/678.687d71cc.chunk.css",
+    "static/js/678.c11e6b20.chunk.js": "/react-music-app/static/js/678.c11e6b20.chunk.js",
+    "static/css/263.9c7f9f97.chunk.css": "/react-music-app/static/css/263.9c7f9f97.chunk.css",
+    "static/js/263.8f3ba6fb.chunk.js": "/react-music-app/static/js/263.8f3ba6fb.chunk.js",
     "static/media/bg.jpg": "/react-music-app/static/media/bg.8c8b9913165508cb16da.jpg",
     "index.html": "/react-music-app/index.html",
-    "main.8f781f29.css.map": "/react-music-app/static/css/main.8f781f29.css.map",
-    "main.d00968ab.js.map": "/react-music-app/static/js/main.d00968ab.js.map",
-    "949.47de4ef9.chunk.css.map": "/react-music-app/static/css/949.47de4ef9.chunk.css.map",
-    "949.a63c6999.chunk.js.map": "/react-music-app/static/js/949.a63c6999.chunk.js.map",
-    "616.c92c80b2.chunk.css.map": "/react-music-app/static/css/616.c92c80b2.chunk.css.map",
-    "616.d697f0a2.chunk.js.map": "/react-music-app/static/js/616.d697f0a2.chunk.js.map",
-    "678.04c23d54.chunk.css.map": "/react-music-app/static/css/678.04c23d54.chunk.css.map",
-    "678.f0078366.chunk.js.map": "/react-music-app/static/js/678.f0078366.chunk.js.map",
-    "263.6e8ef06c.chunk.css.map": "/react-music-app/static/css/263.6e8ef06c.chunk.css.map",
-    "263.5cfa07c1.chunk.js.map": "/react-music-app/static/js/263.5cfa07c1.chunk.js.map"
+    "main.01f8c6af.css.map": "/react-music-app/static/css/main.01f8c6af.css.map",
+    "main.3e32d526.js.map": "/react-music-app/static/js/main.3e32d526.js.map",
+    "949.757f0168.chunk.css.map": "/react-music-app/static/css/949.757f0168.chunk.css.map",
+    "949.d7e5af04.chunk.js.map": "/react-music-app/static/js/949.d7e5af04.chunk.js.map",
+    "616.4c92795e.chunk.css.map": "/react-music-app/static/css/616.4c92795e.chunk.css.map",
+    "616.0798a6bc.chunk.js.map": "/react-music-app/static/js/616.0798a6bc.chunk.js.map",
+    "678.687d71cc.chunk.css.map": "/react-music-app/static/css/678.687d71cc.chunk.css.map",
+    "678.c11e6b20.chunk.js.map": "/react-music-app/static/js/678.c11e6b20.chunk.js.map",
+    "263.9c7f9f97.chunk.css.map": "/react-music-app/static/css/263.9c7f9f97.chunk.css.map",
+    "263.8f3ba6fb.chunk.js.map": "/react-music-app/static/js/263.8f3ba6fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f781f29.css",
-    "static/js/main.d00968ab.js"
+    "static/css/main.01f8c6af.css",
+    "static/js/main.3e32d526.js"
   ]
 }
